@@ -1,0 +1,60 @@
+@use './root'
+    
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+body
+    color: root.$text-light
+    background-color: root.$light-color
+
+h1
+    font-size: root.$text-xl
+
+h2
+    font-size: root.$text-l
+
+h3
+    font-size: root.$text-m
+
+h4
+    font-size: root.$text-s
+
+h5
+    font-size: root.$text-xs
+
+h6
+    font-size: root.$text-xxs
+
+p
+    font-size: root.$text-xxs
+
+a
+    color: root.$link-light
+    text-decoration: none
+    &:hover
+        text-decoration: underline
+
+ul
+    list-style: none
+
+.capital-regular
+    text-transform: capitalize
+    font-weight: normal
+
+.capital-bold
+    text-transform: capitalize
+    font-weight: bold
+
+.uppercase-regular
+    text-transform: uppercase
+    font-weight: normal
+
+.uppercase-bold
+    text-transform: uppercase
+    font-weight: bold
+
+.normal-bold
+    text-transform: none
+    font-weight: bold
