@@ -97,6 +97,12 @@ ul {
   border-radius: 5%;
 }
 
+.img-squidwardstyle{
+  //paste your code here
+  border: solid black 7px;
+  border-radius: 7%;
+}
+
 .nav-items {
   display: flex;
   width: 30%;
